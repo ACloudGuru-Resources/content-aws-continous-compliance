@@ -19,11 +19,12 @@
         "S3B2GMP4": {
             "Type": "AWS::S3::Bucket",
             "Properties": {
-              "PublicAccessBlockConfiguration" : {
-                "BlockPublicAcls" : false,
-                "BlockPublicPolicy" : false,
-                "IgnorePublicAcls" : false,
-                "RestrictPublicBuckets" : false
+              "PublicAccessBlockConfiguration": {
+                "BlockPublicAcls": false,
+                "BlockPublicPolicy": false,
+                "IgnorePublicAcls": false,
+                "RestrictPublicBuckets": false
+                }
             },
             "Metadata": {
                 "AWS::CloudFormation::Designer": {
